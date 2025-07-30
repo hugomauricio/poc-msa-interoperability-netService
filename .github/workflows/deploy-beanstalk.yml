@@ -18,7 +18,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Publish .NET app
-        run: run: dotnet publish poc-msa-interoperability-netService.sln -c Release -o publish
+        run: dotnet publish poc-msa-interoperability-netService.sln -c Release -o publish
 
       - name: Zip publish output
         run: zip -r app.zip publish/*
