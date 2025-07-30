@@ -1,0 +1,6 @@
+@arquetipo_net_HostAddress = http://localhost:5288
+
+GET {{arquetipo_net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

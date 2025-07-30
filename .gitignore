@@ -1,0 +1,55 @@
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## Build
+bin/
+obj/
+TestResults/
+*.log
+*.tlog
+*.cache
+*.pdb
+*.dbmdl
+*.dbproj.schemaview
+
+## Publicación
+*.publish.xml
+*.deploy.cmd
+*.deploy-readme.txt
+
+## Configuración local
+.env
+*.secret.json
+appsettings.Development.json
+
+## Sistema operativo
+.DS_Store
+Thumbs.db
+
+## Logs y dumps
+*.nlog
+*.log
+*.dmp
+
+## NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Docker
+docker-compose.override.yml
+.dockerignore
+
+## IDEs alternativos
+.idea/
+.vscode/
+*.code-workspace
+
+## Entity Framework Migrations
+**/Migrations/
